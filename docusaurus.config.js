@@ -13,8 +13,8 @@ const config = {
   organizationName: 'National University of Singapore (DB2)',
   projectName: 'COOL',
   url: 'https://www.comp.nus.edu.sg/~dbsystem/cool/',
-  baseUrl: '/', /** DEV */
-  // baseUrl: '/~dbsystem/cool/', /** PROD */
+  // baseUrl: '/', /** DEV */
+  baseUrl: '/~dbsystem/cool/', /** PROD */
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'assets/icons/svg/logo.png',
