@@ -9,5 +9,6 @@ module.exports = {
   title: 'COOL: CohOrt OnLine Processing system',
   versions: ['1.0.0'],
   livedemoUrl:
-    'http://ec2-13-212-103-48.ap-southeast-1.compute.amazonaws.com:8201/en/login/?next=/en/dashboard',
+    'http://13.212.99.209:8201/accounts/login/?next=/',
+    // 'http://ec2-13-212-103-48.ap-southeast-1.compute.amazonaws.com:8201/en/login/?next=/en/dashboard',
 };

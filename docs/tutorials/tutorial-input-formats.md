@@ -7,7 +7,7 @@ tags: [data-loader, input-format]
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# How to Load Data to COOL
+## How to Load Data to COOL
 This tutorial firstly shows a complete example of using a local COOL package to load the sample sogamo csv dataset and executes a query. Then describes briefly how the data in other formats can be similarly loaded.
 ## Data sources
 Let's take a look at all the source files:

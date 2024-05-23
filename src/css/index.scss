@@ -39,7 +39,7 @@
   overflow-x: hidden;
 }
 
-.Section + .Section {
+.Section+.Section {
   border-top: 1px solid var(--ifm-table-border-color);
 }
 
@@ -90,7 +90,7 @@ html[data-theme="dark"] .Section p a {
   max-width: 1200px;
   margin: -10px auto 0;
 
-  .social-button{
+  .social-button {
     margin-right: 10px;
   }
 
@@ -163,14 +163,15 @@ html[data-theme="dark"] .Section p a {
     //font-weight: 500;
   }
 
-  .buttons{
+  .buttons {
     margin-top: 40px;
   }
 
-  .buttons .button{
+  .buttons .button {
     font-size: 18px;
     border-radius: 10px;
     margin-right: 20px;
+    min-width: 160px;
 
     &.primary {
       //color: var(--dark);
@@ -209,11 +210,11 @@ html[data-theme="dark"] .Section p a {
   }
 }
 
-.IntroHeader .right{
+.IntroHeader .right {
   float: left;
   width: 40%;
 
-  .logo-img{
+  .logo-img {
     display: flex;
     width: 300px;
     margin: 0 auto;
@@ -234,7 +235,7 @@ html[data-theme="dark"] .Section p a {
 }
 
 .Architecture .center-box {
-  text-align:center
+  text-align: center
 }
 
 .Architecture .center-box .title {
@@ -245,6 +246,7 @@ html[data-theme="dark"] .Section p a {
   margin: 0 auto;
   width: 55%;
 }
+
 @media only screen and (min-width: 2000px) {
   .Architecture .center-box .arch-img {
     margin: 0 auto;
@@ -260,7 +262,7 @@ html[data-theme="dark"] .Section p a {
   margin: 0 auto;
   justify-content: center;
 
-  .color-p{
+  .color-p {
     color: var(--orange);
   }
 }
@@ -274,56 +276,57 @@ html[data-theme="dark"] .Section p a {
   padding: 2rem 0;
   width: 100%;
 
-  .text-center{
+  .text-center {
     text-align: center;
   }
 }
 
-.Features .title{
-  text-align:center;
+.Features .title {
+  text-align: center;
   font-size: 35px;
 }
 
 
-.Features .onpure_bg{
+.Features .onpure_bg {
   background: #f2f2f2;
-  margin:0 auto;
+  margin: 0 auto;
   background-size: cover;
   position: relative;
 }
 
-.Features .onpure{
+.Features .onpure {
   position: absolute;
   //top: 70px;
-  left:50%;
+  left: 50%;
   width: 150px;
   margin-left: -75px;
   //margin-top: 50px;
   z-index: 1
 }
 
-.Features  .onpure_title{
-  background:#f2f2f2;
-  padding:0px 20px 0px 20px;
+.Features .onpure_title {
+  background: #f2f2f2;
+  padding: 0px 20px 0px 20px;
   width: 50%;
   //border-style:solid;
   //border-width:5px;
 }
 
-.Features .line{
+.Features .line {
   display: inline-block;
   width: 90%;
   height: 0px;
   border: 1px solid #000;
   position: absolute;
-  top:8%;
+  top: 8%;
   left: 50%;
   margin-left: -45%;
 }
-.Features .onpure_rest{
-  margin-top:40px;
 
-  .color-p{
+.Features .onpure_rest {
+  margin-top: 40px;
+
+  .color-p {
     white-space: nowrap;
     color: var(--orange);
   }
@@ -331,32 +334,32 @@ html[data-theme="dark"] .Section p a {
 
 
 /*  use-cases  */
-.UseCaseTabs{
+.UseCaseTabs {
   width: 100%;
   height: auto;
 }
 
-.UseCaseTabs .container{
+.UseCaseTabs .container {
   width: 80%;
   //border-style:solid;
 
-  .title{
-    text-align:center;
+  .title {
+    text-align: center;
     font-size: 35px;
   }
 
-  .desc{
+  .desc {
     margin: 0 auto;
     width: 70%;
     text-align: center;
     font-size: 20px;
   }
 
-  .buttons{
-    text-align:center;
+  .buttons {
+    text-align: center;
   }
 
-  .buttons .button{
+  .buttons .button {
     padding: 0.75rem 1.5rem;
     text-align: center;
     font-size: 1.25rem;
@@ -389,7 +392,7 @@ html[data-theme="dark"] .Section p a {
     }
   }
 
-  .items{
+  .items {
     width: 100%;
     text-align: center;
     margin: 20px auto 0;
@@ -401,7 +404,7 @@ html[data-theme="dark"] .Section p a {
     flex-flow: row nowrap;
     justify-content: center;
 
-    .panel{
+    .panel {
       margin-left: -100%;
       flex: 1;
       opacity: 0;
@@ -409,25 +412,25 @@ html[data-theme="dark"] .Section p a {
       //border-style: solid;
     }
 
-    .panel_active{
+    .panel_active {
       margin-left: 0;
       opacity: 1;
       z-index: 1;
     }
 
-    .panel_center{
+    .panel_center {
       width: 60%;
       text-align: center;
     }
 
-    .panel_items{
+    .panel_items {
       //display: flex;
       width: 38%;
       float: left;
       padding-left: 20px;
       padding-top: 10px;
 
-      .class{
+      .class {
         margin: 0;
         font-size: 15px;
         text-align: left;
@@ -435,20 +438,20 @@ html[data-theme="dark"] .Section p a {
         text-transform: uppercase;
       }
 
-      .title{
+      .title {
         margin: 10px 0px 10px 0px;
         font-size: 28px;
         text-align: left;
         //border-style: solid;
       }
 
-      .content{
+      .content {
         font-size: 15px;
         text-align: left;
       }
     }
 
-    video{
+    video {
       float: left;
       width: 60%;
       border-style: solid;
@@ -464,8 +467,8 @@ html[data-theme="dark"] .Section p a {
   height: auto;
   //border-style:solid;
 
-  .title{
-    text-align:center;
+  .title {
+    text-align: center;
     font-size: 35px;
   }
 
@@ -476,8 +479,8 @@ html[data-theme="dark"] .Section p a {
     //border-style: solid;
   }
 
-  @media only screen and (min-width: 2000px){
-    .TechVideo{
+  @media only screen and (min-width: 2000px) {
+    .TechVideo {
       width: 70%;
     }
   }
@@ -498,12 +501,12 @@ html[data-theme="dark"] .Section p a {
   height: auto;
   //border-style:solid;
 
-  .title{
-    text-align:center;
+  .title {
+    text-align: center;
     font-size: 35px;
   }
 
-  .container{
+  .container {
     width: 80%;
     //border-style: solid;
   }
@@ -521,12 +524,12 @@ html[data-theme="dark"] .Section p a {
     display: flex;
   }
 
-  .DemoText{
-    margin-top: 10px ;
+  .DemoText {
+    margin-top: 10px;
     float: left;
     width: 40%;
 
-    .class{
+    .class {
       margin: 0;
       font-size: 15px;
       text-align: left;
@@ -534,7 +537,7 @@ html[data-theme="dark"] .Section p a {
       text-transform: uppercase;
     }
 
-    .button{
+    .button {
 
       color: black;
       border-style: solid;
@@ -550,21 +553,22 @@ html[data-theme="dark"] .Section p a {
 
 /* Try our code */
 
-.TryOurCode{
+.TryOurCode {
   width: 100%;
 }
 
 .TryOurCode .container {
   width: 80%;
 
-  .text{
+  .text {
     text-align: center;
     margin-bottom: 30px;
   }
-  .TryOurCode{
+
+  .TryOurCode {
     width: 70%;
     margin: 0 auto;
-    border:2px solid;
-    border-radius:5px;
+    border: 2px solid;
+    border-radius: 5px;
   }
 }

@@ -53,18 +53,18 @@ function IntroHeader() {
                             className="button primary"
                             href={customFields.livedemoUrl}
                             target="_self">
-                            Get Started
+                            Demo
                         </a>
-                        <a
+                        {/* <a
                             className="button secondary"
                             href={customFields.githubUrl+customFields.EngineName}
                             target="_self">
                             Learn more
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <div className="column right">
-                    <img className="logo-img" alt="Logo" src="../assets/icons/svg/p1.svg"/>
+                    <img className="logo-img" alt="Logo" src="assets/icons/svg/p1.svg"/>
                 </div>
             </div>
         </Section>

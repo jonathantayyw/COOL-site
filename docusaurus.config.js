@@ -12,8 +12,9 @@ const config = {
       'A cohort OLAP system specialized for cohort analysis with extremely low latency.',
   organizationName: 'National University of Singapore (DB2)',
   projectName: 'COOL',
-  url: 'https://www.comp.nus.edu.sg/~dbsystem/',
-  baseUrl: '/',
+  url: 'https://www.comp.nus.edu.sg/~dbsystem/cool/',
+  baseUrl: '/', /** DEV */
+  // baseUrl: '/~dbsystem/cool/', /** PROD */
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'assets/icons/svg/logo.png',
@@ -130,10 +131,10 @@ const config = {
                 label: 'How to use COOL webapp',
                 to: '/blog/2021/12/14/how-to-perform-cohort-analysis-with-COOL',
               },
-              {
-                label: 'COOL for covid19',
-                href: 'https://www.comp.nus.edu.sg/~dbsystem/cool/#/covid-19',
-              },
+              // {
+              //   label: 'COOL for covid19',
+              //   href: 'https://www.comp.nus.edu.sg/~dbsystem/cool/#/covid-19',
+              // },
             ],
           },
           {
